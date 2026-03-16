@@ -1,4 +1,4 @@
-from app import server
+from app import app
 
 # Vercel Python runtime procura uma variável chamada `app`
-app = server
+server = app.server

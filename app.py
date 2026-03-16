@@ -497,5 +497,7 @@ def atualizar_dashboard(anos, meses, categorias, produtos, top_n, modo_ranking):
     )
 
 
+server = app.server
+
 if __name__ == "__main__":
-    app.run(debug=True, host=HOST, port=PORT)
+    app.run(debug=True, host="0.0.0.0", port=8050)
